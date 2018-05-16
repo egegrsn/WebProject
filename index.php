@@ -251,7 +251,7 @@ if (empty($_SESSION["user"])) {
                         echo "<div class='column'>";
                         echo "<table>";
                         echo "<tr>";
-                        echo "<td colspan=2><a href='detail.php?id={$row['id']}'><img class='profile' src='images/{$row['picture']}'></a></td>";
+                        echo "<td colspan=2><a href='product.php?id={$row['id']}'><img class='profile' src='images/{$row['picture']}'></a></td>";
                         echo "</tr>";
                         echo "<tr>";
                         echo "<td class='description'>{$row['title']}</td>";
